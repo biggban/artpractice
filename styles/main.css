@@ -10,7 +10,7 @@ body {
 }
 
 .first_frame {
-    background-image: url(/artpractice/images/Background.png);
+    background-image: url(/artpractice/images/bg1.jpg);
     height: 100%;
     overflow: hidden;
     background-repeat: no-repeat;

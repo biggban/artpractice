@@ -1,0 +1,421 @@
+@import url(/styles/fonts.css);
+/* Works?? */
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.first_screen {
+    height: 900px;
+}
+
+.first_frame {
+    background-image: url(/images/Background.png);
+    height: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.rectangle {
+    border: 5px solid black;
+    width: fit-content;
+    position: relative;
+}
+
+.rectangle > p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 15px 10px;
+    text-transform: uppercase;
+}
+
+.rectangle.one {
+    background-color: #c713f4;
+    top: 45px;
+    left: 200px;
+    rotate: -12deg;
+}
+
+.rectangle.two {
+    background-color: #fde014;
+    top: -36px;
+    left: 886px;
+    rotate: 45deg;
+}
+
+.rectangle.three {
+    background-color: #15cadb;
+    top: 650px;
+    left: 1007px;
+    rotate: 16deg;
+}
+
+.letter {
+    position: relative;
+}
+
+.letter > p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 135px;
+    font-weight: bold;
+    color: white;
+    width: fit-content;
+    margin: 45px auto 0;
+}
+
+.letter.a {
+    background-image: url(/images/cans/A.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 135px;
+    height: 245px;
+    display: flex;
+    align-items: center;
+    top: 190px;
+    left: 125px;
+    rotate: -23deg;
+}
+
+.letter.l {
+    background-image: url(/images/cans/L.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 135px;
+    height: 245px;
+    display: flex;
+    align-items: center;
+    top: -40px;
+    left: 350px;
+    rotate: -30deg;
+}
+
+.letter.e {
+    background-image: url(/images/cans/E.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 135px;
+    height: 245px;
+    display: flex;
+    align-items: center;
+    top: -580px;
+    left: 350px;
+    rotate: -7deg;
+}
+
+.letter.g {
+    background-image: url(/images/cans/G.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 135px;
+    height: 245px;
+    display: flex;
+    align-items: center;
+    top: -875px;
+    left: 565px;
+    rotate: 15deg;
+}
+
+.letter.r {
+    background-image: url(/images/cans/R.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 135px;
+    height: 245px;
+    display: flex;
+    align-items: center;
+    top: -950px;
+    left: 750px;
+    rotate: -6deg;
+}
+
+.letter.e2 {
+    background-image: url(/images/cans/E2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 135px;
+    height: 245px;
+    display: flex;
+    align-items: center;
+    top: -1335px;
+    left: 930px;
+    rotate: 13deg;
+}
+
+.letter.y {
+    background-image: url(/images/cans/Y.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 135px;
+    height: 245px;
+    display: flex;
+    align-items: center;
+    top: -1400px;
+    left: 1065px;
+    rotate: 10deg;
+}
+
+.letter.a2 {
+    background-image: url(/images/cans/A2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 135px;
+    height: 245px;
+    display: flex;
+    align-items: center;
+    top: -1400px;
+    left: 1150px;
+    rotate: 40deg;
+}
+
+/* Section 2 */
+
+.second_screen {
+    height: 800px;
+}
+
+.second_frame {
+    height: 100%;
+    background-color: #fde014;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.style {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    margin-right: 90px;
+}
+
+.style.italics {
+    margin-top: 50px;
+}
+
+/* Third Screen */
+
+.third_screen {
+    height: 900px;
+}
+
+.third_frame {
+    height: 100%;
+    background-image: url(/images/Background\ 2.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.third_frame_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.letter_box {
+    margin-right: 60px;
+}
+
+.third_frame_text > h3 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.third_frame_text > p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    width: 575px;
+    word-wrap: break-word;
+}
+
+.third_paragraph {
+    margin: 15px 0 0 0;
+}
+
+/* Fourth screen */
+.fourth_screen {
+    height: 990px;
+}
+
+.fourth_frame {
+    height: 100%;
+}
+
+/* Fifth screen */
+
+.fifth_screen {
+    height: 990px;
+}
+
+.fifth_frame {
+    height: 100%;
+}
+
+/* Sixth screen */
+
+.sixth_screen {
+    height: 990px;
+}
+
+.sixth_frame {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sixth_heading {
+    position: absolute;
+    top: 4200px;
+}
+
+.sixth_heading > h1 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 215px;
+    font-weight: bold;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: white;
+    text-align: center;
+}
+
+.sixth_image {
+    margin-top: -390px;
+}
+
+/* Seventh screen */
+
+.seventh_screen {
+    height: 648px;
+    margin-top: -50px;
+    position: absolute;
+    z-index: -10;
+}
+
+.seventh_frame {
+    height: 100%;
+}
+
+/* Eight screen */
+
+.eight_screen {
+    height: 1295px;
+    position: relative;
+    top: 598px;
+}
+
+.eight_frame {
+    height: 100%;
+    background-image: url(/images/Background\ 3.png);
+}
+
+.eight_frame {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.eight_heading {
+    width: 100%;
+    font-size: 85px;
+    font-style: italic;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.eight_heading > h1 {
+    margin: 0;
+    padding: 75px 0 0 0;
+}
+
+.eight_text > h3 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+}
+
+.eight_text > p {
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.eight_text {
+    width: 410px;
+    word-wrap: break-word;
+    position: absolute;
+    top: 350px;
+    right: 233px;
+}
+
+.can_water {
+    margin-top: 30px;
+}
+
+.eight_box {
+    position: relative;
+    top: -35px;
+    left: 388px;
+}
+
+.footer {
+    height: 150px;
+    padding: 60px;
+    background-color: #fde014;
+    position: relative;
+    top: 595px;
+}
+
+.footer_container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.logo {
+    width: 300px;
+}
+
+.logo > img {
+    width: 100%;
+}
+
+.text {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.text > p {
+    margin: 10px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
